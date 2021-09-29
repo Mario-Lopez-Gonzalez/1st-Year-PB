@@ -1,0 +1,174 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatwu
+A -g
+A -gnato
+A -gnatwa
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+
+U laboratorio09a_pruebas%b  laboratorio09a_pruebas.adb  cd74761a NE OO SU IL KU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W lab09a_escenarios%s	lab09a_escenarios.ads	lab09a_escenarios.ali
+W laboratorio09a%s	laboratorio09a.adb	laboratorio09a.ali
+Z system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-inteio.ads		20200819050644 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200819050644 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D lab09a_escenarios.ads	20201209102916 4479a49d lab09a_escenarios%s
+D laboratorio09a.ads	20201204153538 910edaa9 laboratorio09a%s
+D laboratorio09a_pruebas.adb  20201210000836 40bc54e7 laboratorio09a_pruebas%b
+D system.ads		20200819050648 32a08138 system%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-imgboo.ads		20200819050646 f5d971eb system.img_bool%s
+D s-imgint.ads		20200819050646 02dbe0c2 system.img_int%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [laboratorio09a_pruebas standard 4 11 none]
+G r s t_nodo_enteros [laboratorio09a_pruebas standard 4 11 none] [t_nodo_enterosIP laboratorio09a 5 9 none]
+G r c none [laboratorio09a_pruebas standard 4 11 none] [esta laboratorio09a 10 13 none]
+G r c none [laboratorio09a_pruebas standard 4 11 none] [posicion laboratorio09a 12 13 none]
+G r c none [laboratorio09a_pruebas standard 4 11 none] [insertar_delante laboratorio09a 15 14 none]
+G r c none [laboratorio09a_pruebas standard 4 11 none] [insertar_detras laboratorio09a 17 14 none]
+G r c none [laboratorio09a_pruebas standard 4 11 none] [insertar_elemento_en_pos laboratorio09a 19 14 none]
+G r c none [laboratorio09a_pruebas standard 4 11 none] [borrar laboratorio09a 23 14 none]
+G r c none [laboratorio09a_pruebas standard 4 11 none] [concatenar laboratorio09a 25 14 none]
+G r c none [laboratorio09a_pruebas standard 4 11 none] [invertir laboratorio09a 27 14 none]
+G r c none [laboratorio09a_pruebas standard 4 11 none] [simplificar laboratorio09a 40 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r19 2r5 2r18
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 14|1w23 2r22
+X 7 a-textio.ads
+57K13*Text_IO 727e16 14|1w10 2r9
+264U14*New_Line 14|107s4 113s4 119s4 125s4 131s4 137s4 147s4 149s4 155s4
+. 161s4 167s4 173s4 179s4 185s4 195s4 197s4 205s4 213s4 225s4 227s4 235s4
+. 243s4 255s4 257s4 265s4 273s4 281s4 289s4 298s4 310s4 312s4 320s4 328s4
+. 336s4 344s4 356s4 358s4 367s4 376s4 385s4 398s4 400s4 408s4 416s4 428s4
+. 430s4 438s4 446s4 454s4 462s4
+508U14*Put_Line 14|106s4 109s4 110s4 111s4 115s4 116s4 117s4 121s4 122s4
+. 123s4 127s4 128s4 129s4 133s4 134s4 135s4 139s4 140s4 141s4 148s4 151s4
+. 152s4 153s4 157s4 158s4 159s4 163s4 164s4 165s4 169s4 170s4 171s4 175s4
+. 176s4 177s4 181s4 182s4 183s4 187s4 188s4 189s4 196s4 200s4 201s4 208s4
+. 209s4 216s4 217s4 226s4 230s4 231s4 238s4 239s4 246s4 247s4 256s4 260s4
+. 261s4 268s4 269s4 276s4 277s4 284s4 285s4 293s4 294s4 301s4 302s4 311s4
+. 315s4 316s4 323s4 324s4 331s4 332s4 339s4 340s4 347s4 348s4 357s4 362s4
+. 363s4 371s4 372s4 380s4 381s4 389s4 390s4 399s4 403s4 404s4 411s4 412s4
+. 419s4 420s4 429s4 433s4 435s4 436s4 441s4 443s4 444s4 449s4 451s4 452s4
+. 457s4 459s4 460s4 465s4 467s4 468s4
+X 8 a-tiinio.ads
+80U14*Put 14|73s10[3|18]
+X 12 lab09a_escenarios.ads
+3K9*Lab09a_Escenarios 116e22 14|1w56 2r55
+10p4*L0{13|4P9} 14|135r18 177r22 215r22 245r22 300r22 346r22 369r22 379r24
+. 387r22 388r24 418r22
+11p4*L1{13|4P9} 14|141r18 183r22 207r22 237r22 410r22
+23p4*L1234{13|4P9} 14|111r18 117r18 123r18 129r18 153r22 159r22 165r22 171r22
+. 199r22 229r22 259r22 267r22 275r22 283r22 291r22 314r22 322r22 330r22 338r22
+. 360r22 361r24 370r24 378r22 402r22
+47p4*LP1_Res{13|34P9} 14|436r40
+71p4*LP4_Res{13|34P9} 14|444r40
+80p4*LP5_Res{13|34P9} 14|452r40
+X 13 laboratorio09a.ads
+1K9*Laboratorio09a 42e19 14|1w40 2r39
+3R9*T_Nodo_enteros 8e14 14|6r11 7r11 8r11 9r11 11r37 12r39 65r21
+4P9*T_Lista_Dinamica(3R9) 14|5r20 11r13 12r15 60r23 60r48 70r26
+6i7*Info{integer} 14|65r39 73r16
+7p7*Sig{4P9} 14|65r58 74r21
+10V13*Esta{boolean} 14|111s13 117s13 123s13 129s13 135s13 141s13
+12V13*Posicion{natural} 14|153s13 159s13 165s13 171s13 177s13 183s13 189s13
+15U14*Insertar_Delante 14|202s4 210s4 218s4
+17U14*Insertar_Detras 14|232s4 240s4 248s4
+19U14*Insertar_Elemento_En_Pos 14|262s4 270s4 278s4 286s4 295s4 303s4
+23U14*Borrar 14|317s4 325s4 333s4 341s4 349s4
+25U14*Concatenar 14|364s4 373s4 382s4 391s4
+27U14*Invertir 14|405s4 413s4 421s4
+33R9*T_Nodo_Punto 38e14 14|22r11 23r11 24r11 25r11 26r11 27r11 28r11 29r11
+. 32r11 33r11 34r11 35r11 36r11 37r11 38r11 39r11 40r11 41r11 42r11 45r11
+. 46r11 47r11 48r11 49r11 50r11 51r11 52r11 53r11 55r45 84r20
+34P9*T_Lista_Puntos(33R9) 14|14r14 21r11 31r11 44r11 55r23 57r21 79r37 79r60
+. 89r50
+36r7*Info{30R9} 14|84r37 94r62 94r81
+37p7*Sig{34P9} 14|84r70 95r44 95r65
+40U14*Simplificar 14|434s4 442s4 450s4 458s4 466s4
+X 14 laboratorio09a_pruebas.adb
+4U11*laboratorio09a_pruebas 4b11 470l5 470t27
+5p4 L2342{13|4P9} 189r22
+11p4 L_copia{13|4P9} 199m4 202m21 202r21 203r13 207m4 210m21 210r21 211r13
+. 215m4 218m21 218r21 219r13 229m4 232m20 232r20 233r13 237m4 240m20 240r20
+. 241r13 245m4 248m20 248r20 249r13 259m4 262m29 262r29 263r13 267m4 270m29
+. 270r29 271r13 275m4 278m29 278r29 279r13 283m4 286m29 286r29 287r13 291m4
+. 295m29 295r29 296r13 300m4 303m29 303r29 304r13 314m4 317m11 317r11 318r13
+. 322m4 325m11 325r11 326r13 330m4 333m11 333r11 334r13 338m4 341m11 341r11
+. 342r13 346m4 349m11 349r11 350r13 360m4 364m15 364r15 365r13 369m4 373m15
+. 373r15 374r13 378m4 382m15 382r15 383r13 387m4 391m15 391r15 392r13 402m4
+. 405m13 405r13 406r13 410m4 413m13 413r13 414r13 418m4 421m13 421r13 422r13
+12p4 L_copia_2{13|4P9} 361m4 364m24 364r24 370m4 373m24 373r24 379m4 382m24
+. 382r24 388m4 391m24 391r24
+14p4 LP_copia{13|34P9} 432m4 434m16 434r16 436r30 440m4 442m16 442r16 444r30
+. 448m4 450m16 450r16 452r30 456m4 458m16 458r16 460r30 464m4 466m16 466r16
+. 468r30
+15i4 cuantos{integer} 434m26 436r49 442m26 444r49 450m26 452r49 458m26 460r49
+. 466m26 468r50
+21p4 LP10{13|34P9} 432r36
+31p4 LP11{13|34P9} 440r36
+44p4 LP12{13|34P9} 448r36
+55p7 LP13{13|34P9} 464r36
+55p13 LP13_Res{13|34P9} 468r40
+57p7 LP0{13|34P9} 456r36
+57p12 LP0_Res{13|34P9} 460r40
+60V13 copiar{13|4P9} 60b13 60>20 65s45 67l8 67t14 199s15 207s15 215s15 229s15
+. 237s15 245s15 259s15 267s15 275s15 283s15 291s15 300s15 314s15 322s15 330s15
+. 338s15 346s15 360s15 361s17 369s15 370s17 378s15 379s17 387s15 388s17 402s15
+. 410s15 418s15
+60p20 L{13|4P9} 62r10 65r37 65r52
+70U14 recorrer 70b14 70>23 74s10 76l8 76t16 203s4 211s4 219s4 233s4 241s4
+. 249s4 263s4 271s4 279s4 287s4 296s4 304s4 318s4 326s4 334s4 342s4 350s4
+. 365s4 374s4 383s4 392s4 406s4 414s4 422s4
+70p23 L{13|4P9} 72r10 73r14 74r19
+79V13 copiar_lista_puntos{13|34P9} 79b13 79>33 84s43 86l8 86t27 432s16 440s16
+. 448s16 456s16 464s16
+79p33 LP{13|34P9} 81r9 84r34 84r63
+89V13 eval_simplificar{boolean} 89b13 89>30 89>34 89>66 89>75 95s20 100l8
+. 100t24 436s13 444s13 452s13 460s13 468s13
+89p30 LP{13|34P9} 91r10 94r14 94r59 95r37
+89p34 LP_correcta{13|34P9} 91r24 94r29 94r69 95r49
+89i66 cuantos{integer} 91r47 95r70
+89i75 cuantos_correcto{integer} 91r57 95r79
+

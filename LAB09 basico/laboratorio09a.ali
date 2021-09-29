@@ -1,0 +1,104 @@
+V "GNAT Lib v2020"
+A -gnatwu
+A -g
+A -gnato
+A -gnatwa
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+
+U laboratorio09a%b	laboratorio09a.adb	84863a45 NE OO PK
+
+U laboratorio09a%s	laboratorio09a.ads	910edaa9 EE NE OO PK
+
+D laboratorio09a.ads	20201204153538 910edaa9 laboratorio09a%s
+D laboratorio09a.adb	20201210002436 1588e0ec laboratorio09a%b
+D system.ads		20200819050648 32a08138 system%s
+G a e
+G c Z s b [esta laboratorio09a 10 13 none]
+G c Z s b [posicion laboratorio09a 12 13 none]
+G c Z s b [insertar_delante laboratorio09a 15 14 none]
+G c Z s b [insertar_detras laboratorio09a 17 14 none]
+G c Z s b [insertar_elemento_en_pos laboratorio09a 19 14 none]
+G c Z s b [borrar laboratorio09a 23 14 none]
+G c Z s b [concatenar laboratorio09a 25 14 none]
+G c Z s b [invertir laboratorio09a 27 14 none]
+G c Z s b [simplificar laboratorio09a 40 14 none]
+G c Z s s [t_nodo_enterosIP laboratorio09a 5 9 none]
+G c Z s s [t_puntoIP laboratorio09a 30 9 none]
+G c Z s s [t_nodo_puntoIP laboratorio09a 35 9 none]
+X 1 laboratorio09a.ads
+1K9*Laboratorio09a 42l5 42e19 2|1b14 189l5 189t19
+3R9*T_Nodo_enteros 4r36 5c9 8e14 2|48r14 59r18 93r21
+4P9*T_Lista_Dinamica(3R9) 7r12 10r24 12r28 15r41 17r40 19r49 23r31 25r40
+. 27r34 2|7r25 9r13 24r29 27r13 46r42 55r41 56r13 57r13 75r17 79r13 82r13
+. 108r32 109r13 135r41 136r10 152r34 153r12 154r17
+6i7*Info{integer} 2|12r19 30r19 112r37 120r23
+7p7*Sig{4P9} 2|15r23 33r23 63r20 64r23 66m16 85r23 96r26 99m16 99r27 100m16
+. 113r19 114r18 119r55 120r19 123r26 127m16 127r27 127r31 141r19 142r23 144m16
+. 158r24 159m18
+10V13*Esta{boolean} 10>18 10>42 2|7b13 18l8 18t12
+10p18 L{4P9} 2|7b19 9r31
+10i42 N{integer} 2|7b43 12r24
+12V13*Posicion{natural} 12>22 12>46 2|24b13 40l8 40t16
+12p22 L{4P9} 2|24b23 27r31
+12i46 N{integer} 2|24b47 30r24
+15U14*Insertar_Delante 15=31 15>59 2|46b14 49l8 49t24 89s10
+15p31 L{4P9} 2|46b32 48m7 48r34
+15i59 Num{integer} 2|46b60 48r30
+17U14*Insertar_Detras 17=30 17>58 2|55b14 68l11 68t26 91s10
+17p30 L{4P9} 2|55b31 56r31 61m10
+17i58 Num{integer} 2|55b59 59r34
+19U14*Insertar_Elemento_En_Pos 19=39 19>67 19>84 2|74b14 102l8 102t32
+19p39 L{4P9} 2|75b7 79r31 89m27 91m26 94r17
+19i67 Num{integer} 2|76b7 89r29 91r28 93r37
+19i84 Pos{integer} 2|77b7 88r10 90r13 95r21
+23U14*Borrar 23=21 23>49 2|108b14 129l8 129t14
+23p21 L{4P9} 2|108b22 109r31 114m13 114r16
+23i49 Num{integer} 2|108b50 112r42 120r28
+25U14*Concatenar 25=25 25=29 2|135b14 146l13 146t23
+25p25 L1{4P9} 2|135b26 136r28 138r10 139m10
+25p29 L2{4P9} 2|135b30 139r14 144r21
+27U14*Invertir 27=24 2|152b14 165l8 165t16
+27p24 L{4P9} 2|152b24 153r30 156r10 163m10
+30R9*T_Punto 32e14 36r13
+31f7*X{float} 2|175r28 175r41 175r70 175r83
+31f10*Y{float} 2|176r28 176r41 176r70 176r83
+33R9*T_Nodo_Punto 34r34 35c9 38e14
+34P9*T_Lista_Puntos(33R9) 37r12 40r36 2|171r37 172r13
+36r7*Info{30R9} 2|175r23 175r36 175r65 175r78 176r23 176r36 176r65 176r78
+37p7*Sig{34P9} 2|174r41 174r67 174r71 175r19 175r61 176r19 176r61 177m19
+. 177r30 177r34 179r26 186r23
+40U14*Simplificar 40=26 40<52 2|171b14 188l11 188t22
+40p26 L{34P9} 2|171b27 172r29 183r14
+40i52 Cuantos{natural} 2|171b53 182m7 185m10 185r19
+X 2 laboratorio09a.adb
+8b7 Esta{boolean} 11r34 13m13 17r14
+9p7 auxil{1|4P9} 11r13 12r13 15m10 15r17
+25i7 Pos{integer} 34m10 34r15 37m10 39r17
+26b7 Parar{boolean} 29r33 31m13 36r14
+27p7 auxil{1|4P9} 29r13 30r13 33m10 33r17
+56p7 Auxil{1|4P9} 60r10 63r14 64m10 64r17 66r10
+57p7 nuevo{1|4P9} 59m7 61r13 66r21
+79p7 Auxil{1|4P9} 84r13 85m10 85r17 94m10 96m13 96r20 99r21 100r10
+80i7 Length{integer} 86m10 86r18 90r20
+81i7 Mov{integer} 95r16 97m13 97r18
+82p7 nuevo{1|4P9} 93m10 99r10 100r21
+109p7 Auxil{1|4P9} 112r10 112r31 113r13 116m13 119r14 119r49 120r13 123m13
+. 123r20 127r10 127r21
+110b7 esta{boolean} 119r34 121m13 126r10
+136p4 Auxil{1|4P9} 141r13 142m10 142r17 144r10
+153p7 Curr{1|4P9} 157r16 158r19 159r13 160r19 161m13
+154p7 prev{1|4P9} 159r23 160m13 163r13
+154p12 next{1|4P9} 158m13 161r19
+172p7 Auxil{1|34P9} 174r13 174r35 174r61 175r13 175r30 175r55 175r72 176r13
+. 176r30 176r55 176r72 177r13 177r24 179m13 179r20 183m7 184r13 186m10 186r17
+

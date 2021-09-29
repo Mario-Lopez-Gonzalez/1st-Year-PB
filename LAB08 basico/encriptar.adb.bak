@@ -1,0 +1,15 @@
+WITH Ada.Integer_Text_IO, Ada.Text_IO, Laboratorio08;
+USE Ada.Integer_Text_IO, Ada.Text_IO, Laboratorio08;
+PROCEDURE Encriptar IS
+   TYPE T_5 IS ARRAY (Integer 1..5) OF Integer;
+   TYPE T_3 IS ARRAY (Integer 1..3) OF Integer;
+   N:T_5:=(1,2,3,4,5);
+   Clave:T_5:=(1,2,3,4,5);
+   num:T_5:=(others=>-99);
+   BEGIN
+      Encriptar(N,Clave,Num)
+         FOR I IN Num'RANGE LOOP
+         Put(Num(I));
+      END LOOP;
+   END Encriptar;
+

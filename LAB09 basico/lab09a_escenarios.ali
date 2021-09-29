@@ -1,0 +1,56 @@
+V "GNAT Lib v2020"
+A -gnatwu
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U lab09a_escenarios%s	lab09a_escenarios.ads	d5777e34 EE OO PK
+W laboratorio09a%s	laboratorio09a.adb	laboratorio09a.ali
+
+D lab09a_escenarios.ads	20201209102916 4479a49d lab09a_escenarios%s
+D laboratorio09a.ads	20201204153538 910edaa9 laboratorio09a%s
+D system.ads		20200819050648 32a08138 system%s
+G a e
+G c Z s s [Tt_vector_puntosBIP lab09a_escenarios 42 4 none]
+X 1 lab09a_escenarios.ads
+3K9*Lab09a_Escenarios 116l5 116e22
+10p4*L0{2|4P9}
+11p4*L1{2|4P9}
+13p4*L2{2|4P9}
+15p4*L3{2|4P9}
+17p4*L12{2|4P9}
+19p4*L23{2|4P9}
+21p4*L123{2|4P9}
+23p4*L1234{2|4P9}
+42A9*T_Vector_puntos(2|30R9)<integer> 43r10 54r10 62r10 69r10 76r10 83r10
+. 106r10
+43a4*LP1{42A9}
+47p4*LP1_Res{2|34P9}
+54a4*LP2{42A9}
+57p4*LP2_Res{2|34P9}
+62a4*LP3{42A9}
+64p4*LP3_Res{2|34P9}
+69a4*LP4{42A9}
+71p4*LP4_Res{2|34P9}
+76a4*LP5{42A9}
+80p4*LP5_Res{2|34P9}
+83a4*LP6{42A9}
+89p4*LP6_Res{2|34P9}
+106a4*LP8{42A9}
+112p4*LP8_Res{2|34P9}
+X 2 laboratorio09a.ads
+1K9*Laboratorio09a 1|1w6 2r6 2|42e19
+3R9*T_Nodo_enteros 1|12r11 14r11 16r11 18r11 18r34 20r11 20r34 22r11 22r33
+. 22r55 24r11 25r11 26r11 27r11 2|8e14
+4P9*T_Lista_Dinamica(3R9) 1|10r18 11r18 13r18 15r18 17r19 19r19 21r20 23r21
+30R9*T_Punto 1|42r44 2|32e14
+33R9*T_Nodo_Punto 1|48r11 49r11 50r11 51r11 52r11 58r11 59r11 60r11 65r11
+. 66r11 72r11 73r11 81r11 82r11 90r11 91r11 92r14 113r11 114r11 115r11 2|38e14
+34P9*T_Lista_Puntos(33R9) 1|47r14 57r14 64r14 71r14 80r14 89r14 112r14
+

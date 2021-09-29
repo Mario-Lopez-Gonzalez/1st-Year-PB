@@ -1,0 +1,114 @@
+V "GNAT Lib v2020"
+A -gnatwu
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U laboratorio09b%b	laboratorio09b.adb	32df1857 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U laboratorio09b%s	laboratorio09b.ads	16629f7a EE NE OO PK
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D laboratorio09b.ads	20210105161712 16629f7a laboratorio09b%s
+D laboratorio09b.adb	20210105172522 24bd872d laboratorio09b%b
+D system.ads		20200819050648 32a08138 system%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+G a e
+G c Z s b [media laboratorio09b 10 13 none]
+G c Z s b [maximo laboratorio09b 12 14 none]
+G c Z s b [insertar laboratorio09b 15 14 none]
+G c Z s b [clonar_y_concatenar laboratorio09b 19 14 none]
+G c Z s b [borrar laboratorio09b 21 14 none]
+G c Z s b [interseccion laboratorio09b 23 14 none]
+G c Z s b [son_iguales laboratorio09b 28 13 none]
+G c Z s b [simplificar laboratorio09b 42 14 none]
+G c Z s b [crear_arbol_binario laboratorio09b 54 14 none]
+G c Z s s [t_nodo_enterosIP laboratorio09b 5 9 none]
+G c Z s s [t_puntoIP laboratorio09b 32 9 none]
+G c Z s s [t_nodo_puntoIP laboratorio09b 37 9 none]
+G c Z s s [t_vector_enterosIP laboratorio09b 47 9 none]
+G c Z s s [t_nodo_arbolIP laboratorio09b 50 9 none]
+X 4 laboratorio09b.ads
+1K9*Laboratorio09b 57l5 57e19 5|1b14 164l5 164t19
+3R9*T_Nodo_enteros 4r36 5c9 8e14 5|50r34 55r17 60r22
+4P9*T_Lista_Dinamica(3R9) 7r12 10r25 12r27 15r33 19r44 19r68 21r31 23r41
+. 24r43 28r35 5|7r26 8r10 28r28 29r10 48r34 49r10 50r12 69r17 70r14 72r11
+. 73r11 74r11 91r32 92r10 120r21 121r31 131r36
+6i7*Info{integer} 5|13r30 36r16 37r21 54r17 57r44 94r34 104r20
+7p7*Sig{4P9} 5|14r17 40r17 57r16 57r40 58r23 60m13 60r45 79r17 80r19 82m11
+. 95r16 96r19 100r17 103r34 104r16 105r19 105r23 106m19 108m19 108r27 108r31
+. 111r17
+10V13*Media{float} 10>19 5|7b13 22l8 22t13
+10p19 L{4P9} 5|7b20 8r28
+12U14*Maximo 12>21 12<45 12<50 5|28b14 42l8 42t14
+12p21 L{4P9} 5|28b22 29r28
+12i45 Max{integer} 5|28b46 33m7 36r21 37m13
+12i50 pos{integer} 5|28b51 32m7 38m13
+15U14*Insertar 15=23 15>51 5|48b14 62l8 62t16
+15p23 L{4P9} 5|48b24 49r28 53m10 55m10 55r37
+15i51 Num{integer} 5|48b52 50r50 54r24 55r33 57r52 60r38
+19U14*Clonar_y_Concatenar 19>34 19>37 19<61 5|68b14 85l8 85t27
+19p34 L1{4P9} 5|69b7 72r29 73r29 76r10
+19p37 L2{4P9} 5|69b10 74r29 77r13
+19p61 L{4P9} 5|70b7 77m10 83m10
+21U14*Borrar 21=21 21>49 5|91b14 113l8 113t14
+21p21 L{4P9} 5|91b22 92r28 96m13 98m13 102r11
+21i49 Num{integer} 5|91b50 94r39 104r25
+23U14*Interseccion 23=27 23=30 24<19 24<28 5|119b14 125l8 125t20
+23p27 L1{4P9} 5|120b7
+23p30 L2{4P9} 5|120b10
+24p19 Comunes{4P9} 5|121b7
+24p28 NoComunes{4P9} 5|121b16
+28V13*Son_iguales{boolean} 28>25 28>28 5|131b13 136s14 137l8 137t19
+28p25 L1{4P9} 5|131b26 136r27
+28p28 L2{4P9} 5|131b29 136r31
+32R9*T_Punto 34e14 38r13
+33f7*X{float}
+33f10*Y{float}
+35R9*T_Nodo_Punto 36r34 37c9 40e14
+36P9*T_Lista_Puntos(35R9) 39r12 42r36 5|143r37
+38r7*Info{32R9}
+39p7*Sig{36P9}
+42U14*Simplificar 42=26 42<52 5|143b14 148l8 148t19
+42p26 L{36P9} 5|143b27
+42i52 Cuantos{natural} 5|143b53
+47A9*T_Vector_Enteros(integer)<integer> 54r39 5|155r12
+48R9*T_Nodo_Arbol 49r35 50c9 53e14
+49P9*T_Arbol_Binario(48R9) 52r24 54r63 5|156r13
+51i7*Info{integer}
+52p7*Menores{49P9}
+52p15*Mayores{49P9}
+54U14*Crear_Arbol_Binario 54>34 54<57 5|154b14 162l8 162t27
+54a34 V{47A9} 5|155b7
+54p57 A{49P9} 5|156b7
+X 5 laboratorio09b.adb
+8p7 L2{4|4P9} 11r13 13r27 14m10 14r14
+9f7 cant{float} 12m10 12r16 19r22
+9f12 suma{float} 13m10 13r16 16r10 19r17
+9f17 media{float} 17m10 19m10 21r17
+29p7 L2{4|4P9} 34r13 36r13 37r18 40m10 40r14
+30i7 pos_act{integer} 35m10 35r19 38r18
+49p7 L2{4|4P9} 52r10 54r14 57r13 57r37 58m16 58r20 60r10 60r42
+50p7 nodo{4|4P9} 53r13
+72p7 L1a{4|4P9} 83r13
+73p7 L1b{4|4P9} 79r13 80m10 80r15 82r7
+74p7 L2a{4|4P9} 82r16
+92p4 l1{4|4P9} 94r13 94r31 95r13 96r16 100m10 100r14
+92p7 l2{4|4P9} 102m7 103r13 103r31 104r13 105r16 106r16 108r16 108r24 111m10
+. 111r14
+

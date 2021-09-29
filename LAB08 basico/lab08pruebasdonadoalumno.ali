@@ -1,0 +1,128 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatwu
+A -g
+A -gnato
+A -gnatwa
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+
+U lab08pruebasdonadoalumno%b  lab08pruebasdonadoalumno.adb  c6f2a3a5 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W laboratorio08%s	laboratorio08.adb	laboratorio08.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-inteio.ads		20200819050644 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200819050644 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D lab08pruebasdonadoalumno.adb  20201125152630 c4b15b2d lab08pruebasdonadoalumno%b
+D laboratorio08.ads	20201118095718 5afca441 laboratorio08%s
+D system.ads		20200819050648 32a08138 system%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-imgint.ads		20200819050646 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20200819050646 9f9b9792 system.img_real%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [lab08pruebasdonadoalumno standard 3 11 none]
+G r c none [lab08pruebasdonadoalumno standard 3 11 none] [comunes laboratorio08 13 13 none]
+G r c none [lab08pruebasdonadoalumno standard 3 11 none] [encriptar laboratorio08 17 14 none]
+G r c none [lab08pruebasdonadoalumno standard 3 11 none] [insertar_en_medio laboratorio08 22 14 none]
+G r c none [lab08pruebasdonadoalumno standard 3 11 none] [borrar_intermedio laboratorio08 25 14 none]
+G r c none [lab08pruebasdonadoalumno standard 3 11 none] [obtener_num_vecinos_por_vivienda laboratorio08 37 14 none]
+G r c none [lab08pruebasdonadoalumno standard 3 11 none] [obtener_consumos laboratorio08 49 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|1r21 1r34 2r20 2r33
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 12|1w38 2r37
+X 7 a-textio.ads
+57K13*Text_IO 727e16 12|1w25 2r24
+264U14*New_Line 12|30s4 37s4 44s4 51s4 58s4 65s4 67s4 77s4 85s4 87s4 101s4
+. 103s4 116s4 118s4 131s7
+392U14*Put 12|143s23
+465U14*Put 12|29s4 29s31 36s4 36s31 43s4 43s31 50s4 50s31 57s4 57s31 64s4
+. 64s31 129s23 140s4 140s49 141s4 143s10 143s30 143s40 143s67
+508U14*Put_Line 12|25s4 32s4 39s4 46s4 53s4 60s4 71s4 79s4 91s4 107s4
+X 8 a-tiinio.ads
+80U14*Put 12|75s7[3|18] 83s7[3|18] 98s7[3|18] 113s7[3|18] 129s10[3|18]
+X 12 lab08pruebasdonadoalumno.adb
+3U11*lab08pruebasDonadoAlumno 3b11 146l5 146t29
+4a4 V1{13|3A9} 26m4 28r26 33m4 35r26 40m4 42r26 47m4 49r26 54m4 56r26
+4a8 V2{13|3A9} 27m4 28r30 34m4 35r30 41m4 42r30 48m4 49r30 55m4 56r30 62m4
+. 63r31
+5a4 V10{13|3A9} 61m4 63r26
+6i4 comunesCont{natural} 28m4 29r35 35m4 36r35 42m4 43r35 49m4 50r35 56m4
+. 57r35 63m4 64r35
+7a4 N{13|3A9} 72m4 73r14
+7a6 Clave{13|3A9} 72m21 73r17 80m18 81r18
+7a12 Num{13|3A9} 73m24 74r13 75r11 81m25 82r13 83r11
+8a4 N3{13|3A9} 80m4 81r14
+9r4 L{13|5R9} 92m4 93m4 95m22 95r22 96r8 97r15 97r22 98r11 108m4 109m4 110m22
+. 110r22 111r8 112r15 112r22 113r11
+10i4 Num2{integer} 94m4 95r25
+11i4 J{integer} 96m4 97r10 98r18 99m7 99r11 111m4 112r10 113r18 114m7 114r11
+12a4 C{13|34A9} 125m4 126r37
+13a4 R{13|35A9} 126m39 127r13 128r16 129r14
+14r4 Elpepe{13|29R9} 122m4 123m4 124m4 125r19
+15a4 E{13|46A9} 138m4 139r21
+16f4 Consumo_electrico{float} 139m23 140r53
+17a4 Consumo_gas{13|47A9} 139m41 142r13 143r44
+18r4 V{13|41R9} 137m4 137m32 137m54 138r30
+74i8 I{integer} 75r15
+82i8 I{integer} 83r15
+127i8 i{integer} 129r16
+128e11 j{character} 129r18
+142e8 I{character} 143r27 143r56
+X 13 laboratorio08.ads
+2K9*Laboratorio08 12|1w6 2r5 13|53e18
+3A9*T_Vector_Enteros(integer)<integer> 12|4r11 5r8 7r16 8r7
+5R9*T_Lista_Estatica 12|9r7 13|8e14
+6a7*Dato{3A9} 12|92m6 96r10 97r24 98r13 108m6 111r10 112r24 113r13
+7i7*cont{natural} 12|93m6 97r17 109m6 112r17
+13V13*Comunes{natural} 12|28s18 35s18 42s18 49s18 56s18 63s18
+17U14*Encriptar 12|73s4 81s4
+22U14*Insertar_En_Medio 12|95s4
+25U14*Borrar_Intermedio 12|110s4
+29R9*T_Vecino 12|14r12 13|33e14
+30a7*nombre{string} 12|122m11
+31i7*piso{integer} 12|123m11
+32e7*mano{character} 12|124m11
+34A9*T_Comunidad(29R9)<integer> 12|12r7
+35A9*T_Rascacielos(natural)<integer><character> 12|13r7
+37U14*Obtener_Num_Vecinos_por_Vivienda 12|126s4
+41R9*T_Vivienda 12|18r7 13|44e14
+42f7*Consumo_Electrico{float} 12|137m6
+42f26*Consumo_Gas{float} 12|137m34
+43i7*Habitantes{integer} 12|137m56
+46A9*T_Edificio(41R9)<character><integer> 12|15r6
+47A9*T_Consumo_Medio_Manos(float)<character> 12|17r17
+49U14*Obtener_Consumos 12|139s4
+

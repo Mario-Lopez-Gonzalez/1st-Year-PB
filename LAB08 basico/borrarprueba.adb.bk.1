@@ -1,0 +1,11 @@
+WITH Ada.Integer_Text_IO, Laboratorio08;
+USE Ada.Integer_Text_IO, Laboratorio08;
+PROCEDURE Borrarprueba IS
+   L:T_Lista_Estatica;
+BEGIN
+   L:=((1,2,3,4,5,others=>0),(5));
+   Borrar_Intermedio(L);
+   FOR I IN 1..L.Cont LOOP
+      Put(L.Dato(I));
+      end loop;
+   end borrarprueba;

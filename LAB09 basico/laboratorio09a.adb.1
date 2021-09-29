@@ -1,0 +1,133 @@
+package body Laboratorio09a is
+
+   ----------
+   -- Esta --
+   ----------
+
+   function Esta (L: in T_Lista_Dinamica; N: in Integer) return Boolean is
+      Esta:Boolean:=False;
+      auxil:T_Lista_dinamica;
+   BEGIN
+      WHILE Auxil.All.Sig /=NULL LOOP
+         IF Auxil.All.info=N THEN
+            Esta:=True;
+            end if;
+         Auxil:=Auxil.All.Sig;
+         end loop;
+      return esta;
+   end Esta;
+
+   --------------
+   -- Posicion --
+   --------------
+
+   function Posicion (L: in T_Lista_Dinamica; N: in Integer) return Natural is
+      Pos:Integer:=1;
+      Parar:Boolean:=False;
+      auxil:T_Lista_dinamica;
+   begin
+      WHILE Auxil.All.Sig /=NULL and not parar LOOP
+         IF Auxil.All.info=N THEN
+            parar:=True;
+            end if;
+         Auxil:=Auxil.All.Sig;
+         pos:=pos+1;
+      END LOOP;
+      IF NOT Parar THEN
+         Pos:=Integer'Last;
+      END IF;
+         return pos;
+   end Posicion;
+
+   ----------------------
+   -- Insertar_Delante --
+   ----------------------
+
+   PROCEDURE Insertar_Delante (L: IN OUT T_Lista_Dinamica; Num: Integer) IS
+   BEGIN
+      L:=new T_Nodo_enteros'(num,l);
+   end Insertar_Delante;
+
+   ---------------------
+   -- Insertar_Detras --
+   ---------------------
+
+   procedure Insertar_Detras (L: in out T_Lista_Dinamica; Num: Integer) is
+         auxil:T_Lista_dinamica;
+   BEGIN
+            WHILE Auxil.All.Sig /=NULL LOOP
+         Auxil:=Auxil.All.Sig;
+      END LOOP;
+      L:=new t_nodo_enteros'(l,
+   end Insertar_Detras;
+
+   ------------------------------
+   -- Insertar_Elemento_En_Pos --
+   ------------------------------
+
+   procedure Insertar_Elemento_En_Pos
+     (L: in out T_Lista_Dinamica;
+      Num: in Integer;
+      Pos: in Integer)
+         IS
+            Parar:Boolean:=False;
+      Auxil:T_Lista_Dinamica;
+      length:integer:=0;
+   begin
+      WHILE Auxil.All.Sig.all.sig /=NULL and not parar LOOP
+         Auxil:=Auxil.All.Sig;
+         length:=length+1;
+      END LOOP;
+      IF Pos < 1 THEN
+         --
+      ELSIF Pos > Length THEN
+         --
+      ELSE
+         --
+         end if;
+   end Insertar_Elemento_En_Pos;
+
+   ------------
+   -- Borrar --
+   ------------
+
+   procedure Borrar (L: in out T_Lista_Dinamica; Num: in Integer) is
+   begin
+      --  Generated stub: replace with real body!
+      pragma Compile_Time_Warning (Standard.True, "Borrar unimplemented");
+      raise Program_Error with "Unimplemented procedure Borrar";
+   end Borrar;
+
+   ----------------
+   -- Concatenar --
+   ----------------
+
+   procedure Concatenar (L1, L2: in out T_Lista_Dinamica) is
+   begin
+      --  Generated stub: replace with real body!
+      pragma Compile_Time_Warning (Standard.True, "Concatenar unimplemented");
+      raise Program_Error with "Unimplemented procedure Concatenar";
+   end Concatenar;
+
+   --------------
+   -- Invertir --
+   --------------
+
+   procedure Invertir (L: in out T_Lista_Dinamica) is
+   begin
+      --  Generated stub: replace with real body!
+      pragma Compile_Time_Warning (Standard.True, "Invertir unimplemented");
+      raise Program_Error with "Unimplemented procedure Invertir";
+   end Invertir;
+
+   -----------------
+   -- Simplificar --
+   -----------------
+
+   procedure Simplificar (L: in out T_Lista_Puntos; Cuantos: out Natural) is
+   begin
+      --  Generated stub: replace with real body!
+      pragma Compile_Time_Warning (Standard.True, "Simplificar unimplemented");
+      raise Program_Error with "Unimplemented procedure Simplificar";
+   end Simplificar;
+end Laboratorio09a;
